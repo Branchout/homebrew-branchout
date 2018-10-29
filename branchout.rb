@@ -14,6 +14,6 @@ class Branchout < Formula
   end
   
   def test
-    system "#{bin}/branchout" "version"
+    system "#{bin}/branchout version"
   end
 end
