@@ -1,5 +1,6 @@
 os: osx
+language: minimal
 script: 
-- brew tap Branchout/homebrew-branchout
-- brew install branchout
+- HOMEBREW_NO_AUTO_UPDATE=1 brew tap Branchout/homebrew-branchout
+- HOMEBREW_NO_AUTO_UPDATE=1 brew install branchout
 - branchout version
