@@ -2,9 +2,9 @@ class Branchout < Formula
 
   desc "Command-line git repository layout manager"
   homepage "https://stickycode.readthedocs.io"
-  url "https://github.com/StickySource/branchout/archive/v1.5.tar.gz"
-  sha256 "9169d84e7176a46ca3b74ed777d9cc231f243a8ff99a1bd46e03030de3282142"
-  version "1.5"
+  url "https://github.com/StickySource/branchout/archive/v1.6.tar.gz"
+  sha256 "e5c756a7decca39636015e5d1686139afc8161b66e0392ca730c0f0224d79e46"
+  version "1.6"
   
   depends_on "git"
   depends_on "bash"
