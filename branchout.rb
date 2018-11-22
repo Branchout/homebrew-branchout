@@ -11,6 +11,7 @@ class Branchout < Formula
   
   def install
     bin.install "branchout"
+    bin.install "branchout-maven"
   end
   
   def test
