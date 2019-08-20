@@ -10,7 +10,7 @@ class Branchout < Formula
   depends_on "branchout/branchout/branchout-maven"
   depends_on "branchout/branchout/branchout-secrets"
   def install
-    ("README").write <<~EOS
+    (bin/"README").write <<~EOS
       Branchout
     EOS
   end
