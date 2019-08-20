@@ -6,6 +6,7 @@ class BranchoutSecrets < Formula
   sha256 "87ecbcbd06c7b8d87f1a614b289a641612a418c131230cfc01007f45e63e552e"
   version "3.1.1"
 
+  depends_on "branchout/branchout/branchout/core"
   depends_on "stickycode/kubesec/kubesec"
   depends_on "gpg"
   
