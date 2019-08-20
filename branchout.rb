@@ -10,7 +10,9 @@ class Branchout < Formula
   depends_on "branchout/branchout/branchout-maven"
   depends_on "branchout/branchout/branchout-secrets"
   def install
-    cp README.md #{prefix}
+    ("README").write <<~EOS
+      Branchout
+    EOS
   end
   def test
     system "branchout version"
