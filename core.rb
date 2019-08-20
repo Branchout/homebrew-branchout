@@ -1,4 +1,4 @@
-class Branchout < Formula
+class Core < Formula
 
   desc "Command-line git repository layout manage"
   homepage "https://github.com/Branchout/branchout"

@@ -1,4 +1,4 @@
-class Branchout < Formula
+class Maven < Formula
 
   desc "Command-line git repository layout manager"
   homepage "https://github.com/Branchout/branchout"
