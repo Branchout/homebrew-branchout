@@ -1,4 +1,4 @@
-class Branchout < Formula
+class BranchoutCore < Formula
 
   desc "Command-line git repository layout manage"
   homepage "https://github.com/Branchout/branchout"
@@ -6,9 +6,17 @@ class Branchout < Formula
   sha256 "87ecbcbd06c7b8d87f1a614b289a641612a418c131230cfc01007f45e63e552e"
   version "3.1"
 
-  depends_on "branchout/branchout/branchout-core"
-  depends_on "branchout/branchout/branchout-maven"
-  depends_on "branchout/branchout/branchout-secrets"
+  depends_on "git"
+  depends_on "bash"
+  
+  def install
+    bin.install "branchout"
+    bin.install "branchout-project"
+    bin.install "branchout-group"
+    bin.install "branchout-init"
+    bin.install "branchout-environment"
+    bin.install "branchout-configuration"
+  end
   
   def test
     system "#{bin}/branchout version"
