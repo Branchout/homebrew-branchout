@@ -1,4 +1,4 @@
-class BranchoutMaven < Formula
+class BranchoutYarn < Formula
 
   desc "Command-line git repository layout manager"
   homepage "https://github.com/Branchout/branchout"
@@ -7,10 +7,10 @@ class BranchoutMaven < Formula
   version "4.1"
 
   depends_on "branchout/branchout/core"
-  depends_on "maven"
+  depends_on "yarn"
   
   def install
-    bin.install "branchout-maven"
+    bin.install "branchout-yarn"
   end
   
   def test

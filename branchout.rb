@@ -2,20 +2,15 @@ class Branchout < Formula
 
   desc "Command-line git repository layout manage"
   homepage "https://github.com/Branchout/branchout"
-  url "https://github.com/StickySource/branchout/archive/v3.1.tar.gz"
-  sha256 "87ecbcbd06c7b8d87f1a614b289a641612a418c131230cfc01007f45e63e552e"
-  version "3.1.3"
+  url "https://github.com/StickySource/branchout/archive/v4.1.tar.gz"
+  sha256 "04d9ce29d5837324d8e7b1314b384a7b3cbb4f8462ed9de6dfb7d92d65ac5c94"
+  version "4.1"
 
   depends_on "branchout/branchout/branchout-core"
   depends_on "branchout/branchout/branchout-maven"
-  depends_on "branchout/branchout/branchout-secrets"
-  def install
-    (bin/"README").write <<~EOS
-      Branchout
-    EOS
-  end
+  
   def test
-    system "branchout version"
+    system "#{bin}/branchout version"
   end
 end
 
