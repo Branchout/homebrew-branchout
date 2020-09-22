@@ -8,6 +8,7 @@ class Branchout < Formula
 
   depends_on "branchout/branchout/branchout-core"
   depends_on "branchout/branchout/branchout-maven"
+  depends_on "branchout/branchout/branchout-yarn"
   
   def test
     system "#{bin}/branchout version"

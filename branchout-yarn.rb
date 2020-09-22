@@ -6,7 +6,7 @@ class BranchoutYarn < Formula
   sha256 "04d9ce29d5837324d8e7b1314b384a7b3cbb4f8462ed9de6dfb7d92d65ac5c94"
   version "4.1"
 
-  depends_on "branchout/branchout/core"
+  depends_on "branchout/branchout/branchout-core"
   depends_on "yarn"
   
   def install
