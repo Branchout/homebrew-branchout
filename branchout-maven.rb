@@ -2,9 +2,9 @@ class BranchoutMaven < Formula
 
   desc "Command-line git repository layout manager"
   homepage "https://github.com/Branchout/branchout"
-  url "https://github.com/StickySource/branchout/archive/v4.5.tar.gz"
-  sha256 "ecbdb580e805cf42c12e995f62b84198da1a8352fa8b5ecb0add08204a198c3c"
-  version "4.5"
+  url "https://github.com/StickySource/branchout/archive/v4.6.tar.gz"
+  sha256 "2351a698efab49125752200accc452ad848e2257ffc49a3efc370c69f77cf746"
+  version "4.6"
 
   depends_on "branchout/branchout/branchout-core"
   depends_on "maven"
