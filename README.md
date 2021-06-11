@@ -5,6 +5,6 @@
 To install run
 
 ```
-brew tap StickySource/branchout
+brew tap Branchout/branchout
 brew install branchout
 ```
