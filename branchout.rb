@@ -10,6 +10,10 @@ class Branchout < Formula
   depends_on "branchout/branchout/branchout-maven"
   depends_on "branchout/branchout/branchout-yarn"
   
+  def install
+    bin.install "README.md"
+  end
+
   def test
     system "#{bin}/branchout version"
   end
