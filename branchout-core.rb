@@ -8,7 +8,7 @@ class BranchoutCore < Formula
 
   depends_on "git"
   depends_on "bash"
-  
+
   def install
     bin.install "branchout"
     bin.install "branchout-project"
@@ -17,9 +17,8 @@ class BranchoutCore < Formula
     bin.install "branchout-environment"
     bin.install "branchout-configuration"
   end
-  
+
   def test
     system "#{bin}/branchout version"
   end
 end
-

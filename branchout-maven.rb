@@ -8,11 +8,11 @@ class BranchoutMaven < Formula
 
   depends_on "branchout/branchout/branchout-core"
   depends_on "maven"
-  
+
   def install
     bin.install "branchout-maven"
   end
-  
+
   def test
     system "#{bin}/branchout version"
   end

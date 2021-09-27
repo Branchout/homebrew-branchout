@@ -8,11 +8,11 @@ class BranchoutYarn < Formula
 
   depends_on "branchout/branchout/branchout-core"
   depends_on "yarn"
-  
+
   def install
     bin.install "branchout-yarn"
   end
-  
+
   def test
     system "#{bin}/branchout version"
   end
