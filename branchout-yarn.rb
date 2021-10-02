@@ -2,9 +2,9 @@ class BranchoutYarn < Formula
 
   desc "Command-line git repository layout manager"
   homepage "https://github.com/Branchout/branchout"
-  url "https://github.com/StickySource/branchout/archive/v4.14.tar.gz"
-  sha256 "1ceba2167541c6ccfc69a1e66478f14f5148f008087b2462ed122b205d4efe4f"
-  version "4.14"
+  url "https://github.com/StickySource/branchout/archive/v4.15.tar.gz"
+  sha256 "c8d3a31913c071a829e196920748e33dc3f57f2b6d8ee0d41abc5949e02d229e"
+  version "4.15"
 
   depends_on "branchout/branchout/branchout-core"
   depends_on "yarn"
