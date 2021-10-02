@@ -1,4 +1,4 @@
-class Maven < Formula
+class MavenAT381 < Formula
   desc "Java-based project management"
   homepage "https://maven.apache.org/"
   url "https://www.apache.org/dyn/closer.lua?path=maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz"
@@ -22,6 +22,7 @@ class Maven < Formula
   depends_on "openjdk"
 
   conflicts_with "mvnvm", because: "also installs a 'mvn' executable"
+  conflicts_with "maven", because: "also installs a 'mvn' executable"
 
   def install
     # Remove windows files
