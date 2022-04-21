@@ -6,8 +6,6 @@ class MavenAT381 < Formula
   sha256 "b98a1905eb554d07427b2e5509ff09bd53e2f1dd7a0afa38384968b113abef02"
   license "Apache-2.0"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   conflicts_with "mvnvm", because: "also installs a 'mvn' executable"
