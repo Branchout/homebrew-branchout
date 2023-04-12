@@ -7,7 +7,7 @@ class BranchoutMaven < Formula
   version "4.16"
 
   depends_on "branchout/branchout/branchout-core"
-  depends_on "branchout/branchout/maven@3.8.1"
+  depends_on "maven"
 
   def install
     bin.install "branchout-maven"
