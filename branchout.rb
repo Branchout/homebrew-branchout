@@ -7,7 +7,6 @@ class Branchout < Formula
   version "4.16"
 
   depends_on "branchout/branchout/branchout-core"
-  depends_on "branchout/branchout/branchout-maven"
   depends_on "branchout/branchout/branchout-yarn"
 
   def install
